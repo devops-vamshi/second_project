@@ -1,0 +1,11 @@
+---
+- hosts: aws
+  tasks:    
+   - name: Update and upgrade apt packages
+     become: true
+     yum:
+      upgrade: yes
+      update_cache: yes
+    
+  
+   

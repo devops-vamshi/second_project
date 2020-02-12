@@ -1,0 +1,23 @@
+---
+- hosts: aws
+  become: yes
+  tasks:
+   - name: git installation
+     yum:
+       name: git
+       state: installed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
